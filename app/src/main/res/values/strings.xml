@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">10119229Latihan3</string>
+    <string name="mulai">Mulai</string>
+    <string name="walkthrough_text">Monitory membantu Anda mengontrol HP Anak</string>
+    <string name="button_regis">Beli Kode Keluarga Disini</string>
+    <string name="kode_kelurga">Kode Keluarga</string>
+    <string name="desc_kode_keluarga">Ketikkan kode keluarga yang ayah bunda miliki disini</string>
+    <string name="term_and_condition_agg">Dengan Menekan Tombol masuk berarti Anda menyetujui <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> Kami</string>
+    <string name="masuk">Masuk</string>
+    <string name="namaPanggilan">Nama Panggilan Kamu</string>
+    <string name="umur">Umur Kamu</string>
+    <string name="lanjut">Selanjutnya</string>
+    <string name="selesai">Beres! Sekarang kamu Udah Bisa Ngecek Penggunaan Hp Mu Tiap Hari Buat Bantu Kamu Ngatur Waktu :)</string>
+    <string name="ok">oke</string>
+
+
+
+</resources>

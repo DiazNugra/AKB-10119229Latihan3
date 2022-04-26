@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/judul_kode"
+        android:fontFamily="@font/rubik_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36sp"
+        android:layout_marginEnd="36sp"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:text="@string/kode_kelurga"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <TextView
+        android:id="@+id/desc_kode_keluarga"
+        android:fontFamily="@font/rubik_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36sp"
+        android:layout_marginEnd="36sp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:text="@string/desc_kode_keluarga"
+        android:layout_below="@id/judul_kode"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+        <EditText
+            android:id="@+id/editText_kode_keluarga"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/desc_kode_keluarga"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="36dp"
+            android:fontFamily="@font/rubik_medium"
+            android:background="@drawable/rounded_edittext"
+            android:textAlignment="center">
+
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/term_and_cond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText_kode_keluarga"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="36dp"
+            android:fontFamily="@font/rubik_regular"
+            android:gravity="center"
+            android:text="@string/term_and_condition_agg"
+            android:textColor="@color/black"
+            android:textSize="12dp">
+
+        </TextView>
+
+
+        <Button
+            android:id="@+id/buttonMasuk"
+            style="@style/ButtonYellow"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/term_and_cond"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="26dp"
+            android:elevation="6dp"
+            android:text="@string/masuk"
+            android:textAllCaps="false">
+
+        </Button>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/white"
+        android:elevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_regular"
+            android:text="Belum Punya Kode Keluarga?">
+
+        </TextView>
+
+
+        <Button
+            android:id="@+id/buttonMulai"
+            style="@style/ButtonYellow"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="26dp"
+            android:elevation="6dp"
+            android:text="@string/button_regis"
+            android:textAllCaps="false">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
